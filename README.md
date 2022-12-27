@@ -26,3 +26,6 @@
 
 
 ![Tabs](https://user-images.githubusercontent.com/121443095/209674335-a698b609-926d-4058-b673-5eb27852ccfb.PNG)
+
+
+![Footer](https://user-images.githubusercontent.com/121443095/209675520-4508c644-a85a-4654-bc85-0bf79da7e4cb.PNG)
