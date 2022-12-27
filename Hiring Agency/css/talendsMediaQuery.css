@@ -1,0 +1,332 @@
+@media only screen and (max-device-width: 480px)
+and (min-device-width:320px){
+    header .navbar-nav .nav-item{
+        margin-bottom: 20px;
+    }
+    header .navbar .navbar-nav{
+        align-items: center;
+        margin-bottom: 30px;
+        padding-bottom: 1rem;
+    }
+    .govNavbarBtnIn{
+        font: 500 12px/24px 'Montserrat';
+    }
+    .navbarSignInBtn{
+        font: 500 12px/24px 'Montserrat';
+        margin-right: 0;
+    }
+    .navbarJoinBtn{
+        font: 500 10px/24px 'Montserrat';
+        margin: 0px;
+    }
+    .homeText{
+        margin-left: 0;
+        font: 300 32px/40px 'Trajan Pro 3';
+    }
+    .homeParaText{
+        margin-left: 0;
+        font: 300 14px/22px 'Montserrat';
+    }
+    .btnFindAJob{
+        margin-left: 0;
+        font: 500 12px/20px 'Montserrat';
+        width: 110px;
+        height: 35px;
+    }
+    .btnSubmitAProject{
+        margin-left: 0;
+        font: 500 12px/20px 'Montserrat';
+        width: 150px;
+        height: 35px;
+    }
+    .trustedImg{
+        max-width: 15%;
+    }
+    .trustedText{
+        font: 400 9px/20px 'Montserrat';
+    }
+    .card-text{
+        font: 400 16px/20px 'Montserrat';
+    }
+    .infoSecText{
+        font: 400 22px/26px 'Trajan Pro 3';
+    }
+    .internPara{
+        font: 300 10px/16px 'Montserrat';
+        padding: 0rem;
+    }
+    .internBtn{
+        width: 115px;
+        height: 30px;   
+        font: 500 10px/12px 'Montserrat';
+        margin-right: 0.5rem;
+    }
+    .internHireBtn{
+        width: 115px;
+        height: 30px;
+        font: 500 10px/12px 'Montserrat';
+    }
+    .communityText{
+        margin: 1rem 0rem 1rem 0rem;
+        font: 400 28px/32px 'Trajan Pro 3';  
+    }
+    .communityIconHeading{
+        font: 400 14px/16px 'Montserrat';
+    }
+    .communityIconPara{
+        font: 400 12px/16px 'Montserrat'; 
+    }
+    .communityBtn{
+        width: 120px;
+        height: 45px;
+        font: 400 10px/14px 'Montserrat';
+    }
+    .support{
+        font: 400 11px/18px 'Montserrat';
+    }
+    .testimonialsText{
+        font: 400 30px/40px 'Trajan Pro 3';
+    }
+    .skillsText{
+        font: 400 18px/24px 'Montserrat';
+        color: #222222;
+        padding-left: 1rem;
+    }
+    .textFont{
+        font: 400 16px/24px 'Montserrat';
+    }
+    .endImgSize{
+        margin-top: 0rem;
+    }
+    .footerLogoText{
+        font: 400 15.9917px/19px 'Trajan Pro 3';
+    }
+    .footerLinksHeading{
+        margin-top: 1rem;
+        font: 400 14px/18px 'Trajan Pro 3';
+    }
+    .footerLinks{
+        font: 400 12px/16px 'Montserrat';
+    }
+    .card-img-overlay{
+        top: 70%;
+    }
+    .nav-link{
+        padding: 0.5rem;
+    }
+    .nav-pills .nav-link{
+        color: #23372333;
+        text-decoration: none;
+        font: 400 16px/15px 'Montserrat';
+    }
+    .whyTalendsHeadings{
+        font-size: 28px;
+    }
+    .whiteTabs .nav-link{
+        font-size: 15px;
+    }
+    .greenTabs{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1023px){
+
+    header .navbar-nav .nav-item{
+        margin-bottom: 20px;
+    }
+    header .navbar .navbar-nav{
+        align-items: center;
+        margin-bottom: 30px;
+        padding-bottom: 1rem;
+    }
+    .govNavbarBtnIn{
+        font: 500 16px/24px 'Montserrat';
+    }
+    .navbarSignInBtn{
+        font: 500 14px/24px 'Montserrat';
+        width: 100px;
+        height: 40px;
+    }
+    .navbarJoinBtn{
+        font: 500 12px/24px 'Montserrat';
+        width: 100px;
+        height: 40px;
+        margin: 0px;
+    }
+    .homeText{
+        font: 300 32px/40px 'Trajan Pro 3';
+    }
+    .homeParaText{
+        font: 300 14px/22px 'Montserrat';
+    }
+    .btnFindAJob{
+        font: 500 12px/20px 'Montserrat';
+        width: 110px;
+        height: 35px;
+    }
+    .btnSubmitAProject{
+        font: 500 12px/20px 'Montserrat';
+        width: 150px;
+        height: 35px;
+    }
+    .trustedImg{
+        max-width: 15%;
+    }
+    .card-text{
+        font: 400 16px/20px 'Montserrat';
+    }
+    .infoSecText{
+        font: 400 25px/30px 'Trajan Pro 3';
+    }
+    .internPara{
+        font: 300 12px/20px 'Montserrat';
+    }
+    .internBtn{
+        width: 130px;
+        height: 35px;   
+        font: 500 12px/16px 'Montserrat';
+    }
+    .internHireBtn{
+        width: 180px;
+        height: 35px;
+        font: 500 12px/16px 'Montserrat';
+    }
+    .communityText{
+        font: 400 30px/40px 'Trajan Pro 3';  
+    }
+    .communityIconHeading{
+        font: 400 14px/16px 'Montserrat';
+    }
+    .communityIconPara{
+        font: 400 12px/16px 'Montserrat'; 
+    }
+    .communityBtn{
+        width: 155px;
+        height: 35px;
+        font: 400 10px/18px 'Montserrat';
+    }
+    .support{
+        font: 400 11px/18px 'Montserrat';
+    }
+    .testimonialsText{
+        font: 400 30px/40px 'Trajan Pro 3';
+    }
+    .skillsText{
+        font: 400 14px/20px 'Montserrat';
+        color: #222222;
+    }
+    .textFont{
+        font: 400 16px/24px 'Montserrat';
+    }
+    .endImgSize{
+        margin-top: -3rem;
+    }
+    .footerLogoText{
+        font: 400 15.9917px/19px 'Trajan Pro 3';
+    }
+    .footerLinksHeading{
+        font: 400 14px/18px 'Trajan Pro 3';
+    }
+    .footerLinks{
+        font: 400 12px/16px 'Montserrat';
+    }
+    .card-img-overlay{
+        top: 60%;
+    }
+    .whyTalendsHeadings{
+        font-size: 35px;
+    }
+    .whiteTabs .nav-link{
+        font-size: 15px;
+    }
+    .whiteTabs .greenTabs{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-device-width: 1024px)
+and (max-device-width:1439px){
+
+    .govNavbarBtnIn{
+        font: 500 16px/24px 'Montserrat';
+    }
+    .navbarSignInBtn{
+        font: 500 11px/24px 'Montserrat';
+        width: 100px;
+        height: 40px;
+    }
+    .navbarJoinBtn{
+        font: 500 11px/24px 'Montserrat';
+        width: 100px;
+        height: 40px;
+    }
+    .nav-link{
+        font: 300 14px/20px 'Montserrat';    
+    }
+    .homeText{
+        font: 300 50px/58px 'Trajan Pro 3';
+    }
+    .homeParaText{
+        font: 300 16px/24px 'Montserrat';
+    }
+    .btnFindAJob{
+        font: 500 18px/20px 'Montserrat';
+        width: 150px;
+        height: 40px;
+    }
+    .btnSubmitAProject{
+        font: 500 18px/20px 'Montserrat';
+        width: 210px;
+        height: 40px;
+    }
+    .card-text{
+        font: 500 22px/30px 'Montserrat';
+    }
+    .infoSecText{
+        font: 400 34px/40px 'Trajan Pro 3';
+    }
+    .internPara{
+        font: 300 14px/22px 'Montserrat';
+    }
+    .internBtn{
+        width: 150px;
+        height: 40px;   
+        font: 500 14px/20px 'Montserrat';
+    }
+    .internHireBtn{
+        width: 150px;
+        height: 40px;
+        font: 500 14px/20px 'Montserrat';
+    }
+    .communityText{
+        font: 400 40px/45px 'Trajan Pro 3';  
+    }
+    .communityBtn{
+        width: 200px;
+        height: 48px;
+        font: 500 14px/20px 'Montserrat';
+    }
+    .testimonialsText{
+        font: 400 45px/50px 'Montserrat';
+    }
+    .skillsText{
+        font: 400 22px/28px 'Montserrat';
+        color: #222222;
+    }
+    .endImgSize{
+        margin-top: -4rem;
+    }
+    .footerLogoText{
+        font: 400 15.9917px/19px 'Trajan Pro 3';
+    }
+    .footerLinksHeading{
+        font: 400 16px/20px 'Trajan Pro 3';
+    }
+    .footerLinks{
+        font: 400 14px/20px 'Montserrat';
+    }
+    .card-img-overlay{
+        top: 75%;
+    }
+}

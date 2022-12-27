@@ -1,0 +1,1323 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+    font-family: 'Montserrat';
+}
+.navbar-toggler{
+    background: 0 0;
+    border: none;
+}
+.navbar-toggler-icon{
+    color: #349F1A;
+    background-image: url("../images/navbarIcon.svg");
+}
+p{
+    font-family: 'Montserrat';
+}
+ul li p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.accBg p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.govNavbarBtnOut{
+    border-radius: 8px;
+    border-left: 4px;
+    border-right: 4px;
+    box-shadow: 0px 0px 0px 8px rgb(152, 255, 124, 0.30);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.fa-angle-down:before {
+    content: "\f107";
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.govNavbarBtnIn{
+    font: 700 14px/24px 'Montserrat';
+    background: #98FF7C;
+    border-radius: 8px;
+    color: #2F9216;
+    line-height: 28px;
+}
+.navbarSignInBtn{
+    background: #349F1A;
+    border-radius: 30px;
+    font: 400 14px/24px 'Montserrat';
+    margin: 0 !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    text-align: center;
+    color: #FFFFFF;
+}
+.navbarJoinBtn{
+    background: #FFFFFF;
+    border-radius: 50px;
+    font: 400 13px/24px 'Montserrat';
+    color: #2A7E16;
+    border: 1px solid #349F1A;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    font: 400 16px/24px 'Montserrat';
+    color: #222222;
+    margin-top: -0.5rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5px;
+    border-bottom: solid transparent;
+    font: 300 16px/1.5 'Montserrat';
+    color: #222222;
+}
+.homeText{
+    font: 400 64px/72px 'Trajan Pro 3';
+}
+.homeParaText{
+    margin-top: 1rem;
+    font: 400 20px/32px 'Montserrat';
+}
+.btnFindAJob{
+    margin: 1rem 1rem 0rem 0rem;
+    background: #349F1A;
+    border-radius: 50px;
+    font: 700 20px/24px 'Montserrat';
+    width: 205px;
+    height: 52px;
+    color: #FFFFFF;
+}
+.btnSubmitAProject{
+    margin-top: 1rem;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font: 700 20px/24px 'Montserrat';
+    color: #2A7E16;
+    width: 205px;
+    height: 52px;
+    border: 1px solid #349F1A;
+    border-radius: 50px;
+}
+.trustedBg{
+    padding: 4rem 0rem 4rem 0rem;
+    background: #F6F6F6;
+}
+.trustedText{
+    font: 400 16px/20px 'Montserrat';
+    color: #959595;
+}
+.card{
+    border: none;
+}
+.card-img-overlay{
+    top: 80%;
+}
+.card-text{
+    text-decoration: none;
+    color: #FFFFFF;
+    font: 700 24px/32px 'Montserrat';
+}
+.infoSecText{
+    font: 400 47px/60px 'Trajan Pro 3';
+    margin: 1rem 0rem 1rem 0rem;
+}
+.internBg{
+    background: #166702;
+}
+.internPara{
+    font: 400 16px/24px 'Montserrat';
+    color: #FFFFFF;
+    padding: 0rem 4rem 0rem 0rem;
+    margin-bottom: 2rem;
+}
+.internBtn{
+    width: 205px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font: 700 16px/24px 'Montserrat';
+    color: #166702;
+    margin-right: 1rem;
+}
+.internHireBtn{
+    width: 205px;
+    height: 52px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font: 700 16px/24px 'Montserrat';
+    color: #FFFFFF;
+}
+.communityBg{
+    background: #F5F5F5;
+    padding: 4rem 0rem 4rem 0rem;
+}
+.communityText{
+    font: 400 52px/60px 'Trajan Pro 3';
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+.communityIconHeading{
+    font: 400 16px/24px 'Montserrat';
+    color: #222222;
+}
+.communityIconPara{
+    font: 400 14px/20px 'Montserrat';
+    color: #222222;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+.communityBtn{
+    margin-right: 1rem;
+    width: 205px;
+    height: 52px;
+    background: #32831E;
+    border-radius: 50px;
+    font: 700 16px/24px 'Montserrat';
+    color: #FFFFFF;
+}
+.testimonialBg{
+    padding: 4rem 0rem 4rem 0rem;
+    background: #166702;
+}
+.testimonialsText{
+    padding: 1rem 0rem 1rem 0rem;
+    font: 400 52px/60px 'Trajan Pro 3';
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+/* .card{
+    background: linear-gradient(0deg, #F8F8F8, #F8F8F8), url(.png);
+    border-radius: 16px;
+    margin-bottom: 3rem;
+    position: relative;
+} */
+.card-body::after{
+    position: absolute;
+    content:'';
+    width: 0;
+    height: 0;
+    top: 99%;
+    left: 46%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #F8F8F8;;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 50px !important;
+    border-radius: 50%;
+    border: 1px solid !important;
+    width: 40px;
+    height: 40px;
+    line-height: 30px !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 50px !important;
+    border-radius: 50%;
+    border: 1px solid !important;
+    width: 40px;
+    height: 40px;
+    line-height: 30px !important;
+}
+.skillsBg{
+    background: #F5F5F5;
+    padding: 4rem 0rem 6rem 0rem;
+}
+.nav-pills .nav-link{
+    color: #23372333;
+    text-decoration: none;
+    font: 400 36px/40px 'Montserrat';
+}
+.nav-pills .nav-link.active{
+    color: #349F1A;
+    background-color: transparent;
+}
+a:hover{
+    color: #349F1A !important;
+    text-decoration: none !important;    
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}
+.textFont{
+    font: 400 20px/28px 'Montserrat';
+    color: #222222;
+    margin-bottom: 4rem;
+}
+.endBg{
+    background: #166702;
+}
+.endImgSize{
+    margin-top: -6rem;
+}
+.footerBg{
+    background: #0B2106;
+    padding: 4rem 0rem 2rem 0rem;
+    border-top: 2px solid white;
+}
+.footerLogoText{
+    font: 400 15.9917px/19px 'Trajan Pro 3';
+    color: #FFFFFF;
+    opacity: 0.56;
+    padding-left: 4rem;
+}
+.footerLinksHeading{
+    font: 400 16px/20px 'Trajan Pro 3';
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.footerLinks{
+    text-decoration: none;
+    font: 400 14px/20px 'Montserrat';
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+.footerEndText{
+    font: 400 13px/20px 'Trajan Pro 3';
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.owl-item{
+    opacity:0.5;
+}
+.center{
+    opacity: 1;
+}
+/* Find An Agency */
+
+.imgMargin{
+    margin-top: -2rem;
+}
+.bannerImg{
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+}
+.mediaObj{
+    font: 400 20px/28px 'Montserrat';
+    color: #222222;
+}
+#more{
+    display: none;
+}
+.overviewMargin{
+    margin-top: 8rem;
+}
+.overview{
+    font: 700 30px/24px 'Trajan Pro 3';
+    color:#166702;
+}
+.overviewText{
+    font: 400 20px/28px 'Montserrat';
+    color: black;
+}
+.readBtn{
+    color:#166702;
+    border: none;
+    font: 400 20px/28px 'Montserrat';
+    background: transparent;
+}
+.borderLeft{
+    padding: 0rem 0rem 0rem 2rem;
+    border-left: 1px solid #CCCCCC !important;
+}
+.borderBottom{
+    border-bottom: 1px solid #CCCCCC !important;
+}
+.borderBottom2{
+    border-bottom: 1px solid #CCCCCC !important;
+    padding-bottom: 65rem ;
+}
+.colTextHeading{
+    font: 700 19px/24px 'Trajan Pro 3';
+    color: black;
+}
+.colText{
+    font: 400 20px/28px 'Montserrat';
+    color: black;
+}
+.colTextNumber{
+    font: 700 20px/28px 'Montserrat';
+    color: black;
+}
+.expertiseMargin{
+    margin-top: 8rem;
+}
+.accBg{
+    background: #F8FAF7;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+}
+.accordianHeading{
+    font: 600 20px/28px 'Montserrat';
+    color: black;
+}
+.accordianText{
+    font: 400 20px/28px 'Montserrat';
+    color: black;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/chevron-down.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: #4CD92A;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../images/chevron-up.svg");
+}
+ul {
+    list-style-type: none;
+}
+.skillsList{
+    background: #F8FAF7;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 1rem;
+}
+.skillsList ul li {
+    display: inline-block;
+    font: 400 16px/20px 'Montserrat';
+    padding: 5px 15px;
+    border: 1px solid #e3e4e5;
+    border-radius: 25px;
+    margin: 5px;
+}
+.carouselBg{
+    background: #F8FAF7;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+}
+.carouselText{
+    font: 400 16px/24px 'Montserrat';
+}
+.carouselSizeTop{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.carouselSizeBottom{
+    padding: 2rem 2rem 0rem 2rem;
+}
+.agency-Carousel{
+    position: relative;
+}
+.agency-Carousel .owl-nav button.owl-prev{
+    font-size: 50px !important;
+    border-radius: 50%;
+    border: 1px solid !important;
+    position: absolute;
+    right: 6.25%;
+    top: 1%;
+    width: 30px;
+    height: 30px;
+    line-height: 0 !important;
+    background-color: #4CD92A !important;
+    border-color: #4CD92A !important;
+}
+.agency-Carousel .owl-nav button.owl-next{
+    font-size: 50px !important;
+    border-radius: 50%;
+    border: 1px solid !important;
+    position: absolute;
+    right: 25px;
+    top: 1%;
+    width: 30px;
+    height: 30px;
+    line-height: 0 !important;
+    background-color: #4CD92A !important;
+    border-color: #4CD92A !important;
+}
+.selectorBg{
+    background: #FAFAFA;
+}
+.hireHeading{
+    font: 400 44px/60px 'Trajan Pro 3';
+    color: #166702;
+}
+.hireText{
+    font: 400 18px/24px 'Montserrat';
+    color: #166702;
+}
+.skillsText2:hover{
+    color: #4CD92A;
+}
+.formStyle {
+    position: relative;
+   
+}
+.formContact{
+    font: 700 24px/35px 'DM Sans';
+    color: #170F49;
+    margin-bottom: 50px;    
+     text-align: left;
+}
+input{
+    border: 1px solid #EFF0F7 !important;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px !important;
+}
+
+.nextButton {
+    background: #349f1a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
+/*  */
+#msform label{
+    color: #170F49;
+    margin-left: 10px;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 34px;
+    padding: 30px 50px;
+    z-index: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+.form-card {
+	text-align: left;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform input, #msform textarea {
+    
+    font-family: montserrat;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7 !important;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px !important;
+    color: #6F6C90;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: none;
+    padding: 15px 50px 14px 20px;
+    height: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7;
+    outline-width: 0;
+}
+
+/*Next Buttons*/
+#msform .action-button {
+    background: #349f1a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px !important;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    background-color: #311B92;
+}
+
+/*Previous Buttons*/
+#msform .action-button-previous {
+    background: transparent;
+    font-weight: bold;
+    color: #349f1a;
+    border: 1px solid #349f1a;
+    border-radius: 100px !important;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 10px 5px 10px 0px;
+    float: left;
+}
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    background-color: #349f1a !important;
+    color: #ffffff;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+    background-color: #349F1A;
+}
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    background-color: #000000;
+}
+
+/*The background card*/
+.card {
+    z-index: 0;
+    border: none;
+    position: relative;
+}
+
+/*FieldSet headings*/
+.fs-title {
+    font-size: 25px;
+    color: #170F49;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.purple-text {
+    color: #170F49;
+    font-weight: normal;
+}
+
+/*Step Count*/
+.steps {
+	font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right;
+}
+
+/*Field names*/
+.fieldlabels {
+	color: gray;
+	text-align: left;
+}
+
+/*Icon progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#progressbar .active {
+    color: #349F1A;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+}
+
+/*Icons in the ProgressBar*/
+#progressbar #account:before {
+    content: "1";
+    
+}
+
+#progressbar #personal:before {
+    content: "2";
+}
+
+#progressbar #payment:before {
+    content: "3";
+}
+
+#progressbar #confirm:before {
+    content: "4";
+}
+
+/*Icon ProgressBar before any progress*/
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+#progressbaragency li:before {
+    content: '';
+    width: 100%;
+    height: 6px;
+    background: #eff0f6;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+/*ProgressBar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+/*Color number of the step and the connector before it*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #349F1A;
+    color: #ffffff;
+}
+
+/*Animated Progress Bar*/
+.progress {
+	height: 20px;
+}
+
+.progress-bar {
+	background-color: #673AB7;
+}
+
+/*Fit image in bootstrap div*/
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    background: transparent;
+    border-top-right-radius: 46px ;
+    border-bottom-right-radius: 46px;
+    border: 1px solid #EFF0F7 !important; 
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+}
+.checkBox input:checked + label {
+    background-color: #349F1A;
+    color: #ffffff !important;
+}
+.checkBox{
+    box-shadow: 0px 2px 11px rgba(69, 65, 164, 0.06), 0px 4px 10px rgba(31, 37, 89, 0.07);
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: 2px solid #349F1A;
+    padding: 12px 10px 12px 15px;
+    position: relative;
+    display: block;
+    margin: 0px;
+    cursor: pointer;
+    border-color: #349F1A !important;
+}
+.imgRounded{
+    margin-right: 15px;
+    border-radius: 50%!important;
+}
+.checkBox input:checked + label img{
+    background: #ffffff;
+}
+.formCheckbox .btn-check:checked+.btn{
+    color: #ffffff !important;
+    background-color: #349F1A;
+    border-color: #349F1A;
+}
+label.btn {
+    text-align: left !important;
+}
+.radioButton{
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 16px;
+    padding: 40px 10px 40px 30px;
+    display: block;
+    margin-bottom: 25px;
+}
+.nav-link.active{
+    color: #ffffff !important;
+    background-color: #349f1a !important;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.nav-tabs .nav-link{
+    font-size: 18px;
+    border: 0 !important;
+    background-color: #e1ffd8;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+.loginBtn{
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    display: block;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Why Talends */  
+.whyTalendsSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.whyTalendsSection ul li p{
+    font-weight: 300;
+}
+.whyTalendsMainButton{
+    margin: 10px auto;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    background: #349f1a;
+    border: solid 1px #349f1a;
+    z-index: 0;
+    display: inline-block;
+    transition: all .4s cubic-bezier(.42, 0, .58, 1);
+}
+.list{
+    background: #f1f6f2;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.whyTalendsHeadings{
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #242424;
+    font-size: 48px;
+    line-height: 1.375;
+    font-family: 'Joan';
+}
+.greenTabsStyle .nav-link{
+    border-radius: 15px 15px 0 0;
+    color: rgba(255,255,255,0.5);
+    background-color: transparent;
+}
+.greenTabsStyle .nav-tabs{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.greenTabsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.greenTabs{
+    display: flex;
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,0.5);
+}
+.bi-check2::before {
+    width: 60px;
+    height: 60px;
+    background: #349f1a;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 30px;
+}
+.stepsMainDiv{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+.stepsMainDiv h2 {
+    opacity: 20%;
+    position: absolute;
+    font-size: 220px;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+    font-family: 'Joan';
+}
+.stepsMainDiv h3 {
+    color: #8BF870;
+    font-size: 30px;
+    font-family: 'joan';
+    text-transform: uppercase;
+}
+
+.whiteTabs .nav-link.active {
+    color: #434343 !important;
+    border-radius: 0;
+    border-bottom: solid 2px #479041 !important;
+    background-color: transparent !important;
+}
+.whiteTabs .nav-link {
+    color: #989898;
+    padding: 5px 10px;
+    text-align: left;
+    background: transparent;
+    display: flex;
+    border-radius: 10px;
+    font-size: 24px;
+    background: unset;
+    font-weight: 400;
+    border: unset !important;
+    border-bottom: solid 2px transparent !important;
+}
+.whiteTabs .greenTabs{
+    color: #000000;
+}
+
+.whiteTabs .nav.nav-tabs{
+    flex-wrap: nowrap;
+}
+.whiteTabs .nav.nav-tabs{
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.greenTabsStyle .nav.nav-tabs{
+    flex-wrap: nowrap;
+}
+.greenTabsStyle .nav.nav-tabs{
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+/* Find Right Talends */
+.rightTalendlist{
+    background: #f1f6f2;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Joan';
+}
+.rightTalendsAccordianText{
+    margin-top: 1.25rem;
+    font: 700 24px/1.5 'Joan';
+}
+.rightTalendsAccordianSection{
+    background-color: #C5E2BD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.rightTalendsAccordianSection .container{
+    opacity: 0.8;
+}
+.rightTalendsAccordianSection .accordianHeading{
+    font-family: 'joan';
+}
+.rightTalendsTestimonialBg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #166702;
+}
+.rightTalendsTestimonialBg .testimonialsText{
+    font: bold 60px/80px 'Joan';
+    text-transform: uppercase;
+}
+.rightTalendsTestimonialBg h6{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.rightTalendsTestimonialBg .card{
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 16px;
+    color: #2f2f2f;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+.rightTalendsTestimonialBg .card-body{
+    padding: 0px;
+}
+.rightTalendsHireBg{
+    background-color: #349F1A;
+    border-radius: 16px;
+}
+.rightTalendsHireBg p{
+    font-family: 'Joan';
+}
+.rightTalendsHireBg h4{
+    font-size: 1.4375rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Joan';
+}
+.rightTalendsHireForm input {
+    border: 1px solid #349F1A !important;
+    box-shadow: none;
+    border-radius: 0.3rem !important;
+    padding: 0.5rem 1rem;
+}
+.rightTalendsHireForm ::placeholder{
+    color: #349F1A;
+}
+.formHelpBtn{
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+/* Register Form */
+.formOption{
+    padding: 25px 20px 25px 35px;
+}
+.formHeading{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.3;
+    font-family: 'Joan';
+    text-transform: capitalize;
+}
+.registerOpt{
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 12px;
+    padding: 20px 10px 20px 25px;
+    display: block;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.registerOpt label{
+    background: transparent;
+    border: none;
+    color: #666 !important;
+    font-size: 20px;
+}
+.registerOpt:hover{
+    background-color: #f5f9f5;
+}
+
+.box{
+    display: none;
+}
+.employer .form-control {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    height: 42px !important;
+    border: solid 1px #cbf0c0 !important;
+    font-size: 14px;
+    border-radius: 5px !important;
+}
+.employer .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: 1px solid #cbf0c0 !important;
+}
+.employer .btn-theme {
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.registerFormText{
+    font-size: 11px;
+}
+.employerFormText{
+    color: #323232;
+    margin: 0 0 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Joan';
+    font-size: 24px;
+}
+.employerForm{
+    padding: 25px 0px 0px 0px;
+}
+/* Freelancer Register */
+.freelancer .form-control {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    height: 42px !important;
+    border: solid 1px #cbf0c0 !important;
+    font-size: 14px;
+    border-radius: 5px !important;
+}
+.freelancer .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: 1px solid #cbf0c0 !important;
+}
+.freelancer .btn-theme {
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.freelancerFormText{
+    color: #323232;
+    margin: 0 0 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Joan';
+    font-size: 24px;
+}
+.freelancerForm{
+    padding: 25px 0px 0px 0px;
+}
+.freelancer .rate{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+.placeholderColor ::placeholder{
+    background: white;
+    color: #30242a;
+}
+
+/* Agency Register */
+
+.agency .fs-title{
+    font-family: 'Trajan Pro 3';
+}
+
+.agency label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #170F49;
+}
+.agency .form-control {
+    height: 42px !important;
+    border: solid 1px #cbf0c0 !important;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 10px !important;
+    color: #6F6C90;
+    padding: 7px 15px 7px 20px;
+}
+.agency .form-control:focus {
+    border: 1px solid #349F1A !important;
+    box-shadow: none;
+    outline: 0;
+}
+.agency .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: 1px solid #cbf0c0 !important;
+}
+.agency .btn-theme {
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.agencyFormText{
+    color: #323232;
+    margin: 0 0 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Joan';
+    font-size: 24px;
+}
+.agencyForm{
+    padding: 25px 0px 0px 0px;
+}
+
+.agency .back{
+    background: #349f1a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 35px;
+    margin: 10px 0px 10px 5px;
+    border: 1px solid #349f1a;
+}
+.agency .next{
+    background: #349f1a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 35px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+    border: 1px solid #349f1a;
+}
+.agencyBg{
+    background: white;
+}
+.form #msform{
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0rem;
+    z-index: 0;
+    margin: 0rem;
+}
+.agencyFormCheckbox .checkBox{
+    border: 1px solid #349F1A;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 11px rgb(69 65 164 / 6%), 0px 4px 10px rgb(31 37 89 / 7%);
+    border-radius: 8px;
+    padding: 10px 4px;
+    position: relative;
+    margin: 0px;
+    cursor: pointer;
+    text-align: center !important;
+    margin-bottom: 7px !important;
+    color: rgb(52, 159, 26) !important;
+    text-transform: uppercase;
+}
+
+.agencyFormCheckbox .btn-check:checked+.btn{
+    background-color: rgb(22, 103, 2);
+    color: white !important;
+}
+
+/* Intern Registration */
+
+.intern label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #170F49;
+}
+.intern .form-control {
+    height: 42px !important;
+    border: solid 1px #cbf0c0 !important;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 10px !important;
+    color: #6F6C90;
+    padding: 7px 15px 7px 20px;
+}
+.intern .form-control:focus {
+    border: 1px solid #349F1A !important;
+    box-shadow: none;
+    outline: 0;
+}
+.intern .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: 1px solid #cbf0c0 !important;
+}
+.intern .btn-theme {
+    color: #ffffff;
+    background-color: #349f1a;
+    border: 1px solid #349f1a;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px 20px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.internFormText{
+    color: #323232;
+    margin: 0 0 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Joan';
+    font-size: 24px;
+}
+.internForm{
+    padding: 25px 0px 0px 0px;
+}
+.intern .back{
+    background: #349f1a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 35px;
+    margin: 10px 0px 10px 5px;
+    border: 1px solid #349f1a;
+}
+.intern .rate{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}

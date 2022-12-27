@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talends</title>
+
+    <!-- Icon -->
+    <link rel="icon" href="images/newLogo.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d03f1168b0.js" crossorigin="anonymous"></script>
+    <!-- Css file -->
+    <link rel="stylesheet" type="text/css" href="css/Talends.css">
+    <link rel="stylesheet" type="text/css" href="css/talendsMediaQuery.css">
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="font/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d03f1168b0.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="javaScript/Talends.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Owl Carousel Script -->
+    <script src="javaScript/owl.carousel.min.js"></script>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="/Home.html"><img src="https://talends.com/talends/assets/img/logo.svg" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown me-2 position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Find talent <i class="fas fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                                <div class="container">
+                                    <div class="row my-4 justify-content-center">   
+                                        <div class="col-md-3">
+                                            <li><a class="dropdown-item" href="#">Action1</a></li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <li><a class="dropdown-item" href="/FindAnAgency.html">Find An Agency</a></li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <li><a class="dropdown-item" href="/FindRightTalend.html">Let Us Find The Right Talend For You</a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2 position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Jobs <i class="fas fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                                <div class="container">
+                                    <div class="row my-4 justify-content-center">
+                                       <div class="col-md-3">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                       </div>   
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="/WhyTalends.html">Why Talends</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="govNavbarBtnOut">
+                                <button type="button" class="btn govNavbarBtnIn btn-sm">Government</button>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" class="btn btn-lg navbarSignInBtn">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" class="btn btn-lg navbarJoinBtn" href="/register.html">Join Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="homeText">Hire Incredible  Talent, <span style="color:#349F1A;">Locally</span></h1>
+                    <h4 class="homeParaText">
+                        Middle East’s Premium Marketplace Provides Hand-Picked Local Talents To Local Organizations
+                    </h4>
+                    <button type="button" class="btn btn-lg btnFindAJob">Find A Job</button>
+                    <button type="button" class="btn btn-lg btnSubmitAProject">Submit A Project</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <img src="images/homeImg.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By -->
+    <section class="trustedBg" >
+        <div class="container">
+            <div class="text-center">
+                <p class="trustedText">
+                    TRUSTED BY
+                    <img src="images/ADIA.png" class="img-fluid mx-md-4 trustedImg" alt="">
+                    <img src="images/mccann.png" class="img-fluid me-md-4 trustedImg" alt="">
+                    <img src="images/mubadal.png" class="img-fluid me-md-4 trustedImg" alt="">
+                    <img src="images/dubai.png" class="img-fluid me-md-4 trustedImg" alt="">
+                    <img src="images/sharjah.png" class="img-fluid trustedImg" alt="">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section class="my-5 mx-5">
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <h5 class="text-muted">FOR CLIENTS</h5>
+            </div>
+            <div class="col-md-12">
+                <h1 class="infoSecText">Find a Talend, <span style="color: #349F1A">Locally!</span></h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-white">
+                    <img src="images/card1.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <a class="card-text">Post your job & Hire a Local Talent</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white">
+                    <img src="images/card2.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <a class="card-text">Browse a Job/BUY A PROJECT </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white">
+                    <img src="images/card3.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <a class="card-text">Let us help you to find “The Right Talent” </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internees -->
+    <section class="internBg pt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 style="color: #FFFFFF99;">FOR CLIENTS</h5>
+                        </div>
+                        <div class="col-md-12">
+                            <h1 class="infoSecText"><span style="color: #FFFFFF">Find Paid Internships</span><span style="color: #3EE216"><br> & Advance Your Career</span></h1>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="internPara">At Talends, we support our young generation to play their role in a society. We create an eco-system for students to land their Dream Jobs.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-lg internBtn">I’m an Intern</button>
+                            <button type="button" class="btn btn-lg internHireBtn">I’m Hiring an Intern</button>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-6">
+                    <img src="images/internImg.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section class="communityBg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/communityImg.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="communityText">We’re Surprisingly <span style="color:#349F1A;"><br>Amazing</span></h1>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <img src="images/handshake.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <p class="communityIconHeading">Hand Picked Local Resources</p>
+                                    <P class="communityIconPara">
+                                        We’re a community with a mission to share hand-picked talented people with local organizations.
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <img src="images/database-check.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <p class="communityIconHeading">Project Management</p>
+                                    <P class="communityIconPara">
+                                        Share your project, and we make sure our dedicated project manager picks best resources for your Project.
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <img src="images/chat-question.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <p class="communityIconHeading">Live Chat Supprt 24/7 Available</p>
+                                    <P class="communityIconPara">
+                                        Our dedicated support team always excited & ready to keep up with your projects. 
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex align-items-center">
+                                <button type="button" class="btn btn-lg communityBtn">Join The Community</button>
+                                <h6 class="support" style="color: #222222;">Support 24/7 <span style="color:#349F1A;"> 052-768-4867</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonialBg">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h5 style="color: #FFFFFF;">Testimonials</h5>
+                </div>
+                <div class="col-md-12">
+                    <h1 class="testimonialsText"><span style="color: #FFFFFF">Love Shared</span><br><span style="color: #3EE216;">With Talends</span></h1>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-xl-12 col-lg-10 col-md-12">
+                    <div class="owl-carousel owl-theme card-group ">
+                        <div class="item text-center">    
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Talends has helped me by exposing me to fields of work and regions of the world that would be out of my reach otherwise. By developing my technological skills across a wide variety of industries, I've become better at what I do.</p>
+                                </div>
+                            </div>
+                            <img src="images/person1.png" class="img-fluid mx-auto d-block my-4" alt="">
+                            <h6 style="color: #FFFFFF;">Mubarak Bin Falah</h6>
+                            <h6 style="color: #FFFFFF66;">Chairman CMC</h6>
+                        </div>
+
+                        <div class="item text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Talends has helped me by exposing me to fields of work and regions of the world that would be out of my reach otherwise. By developing my technological skills across a wide variety of industries, I've become better at what I do.</p>
+                                </div>
+                            </div>
+                                 
+                            <img src="images/person2.png" class="img-fluid mx-auto d-block my-4" alt="">
+                            <h6 style="color: #FFFFFF;">Maya Ibrahim</h6>
+                            <h6 style="color: #FFFFFF66;">Digital Marketer</h6>
+                        </div>
+
+                        <div class="item text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Talends has helped me by exposing me to fields of work and regions of the world that would be out of my reach otherwise. By developing my technological skills across a wide variety of industries, I've become better at what I do.</p>
+                                </div>
+                            </div>
+
+                            <img src="images/person3.png" class="img-fluid mx-auto d-block my-4" alt="">
+                            <h6 style="color: #FFFFFF;">Johnny Yusuf</h6>
+                            <h6 style="color: #FFFFFF66;">Financial Advisor</h6>
+                        </div>
+                        
+                        <div class="item"><h4>4</h4></div>
+                        <div class="item"><h4>5</h4></div>
+                        <div class="item"><h4>6</h4></div>
+                        <div class="item"><h4>7</h4></div>
+                        <div class="item"><h4>8</h4></div>
+                        <div class="item"><h4>9</h4></div>
+                        <div class="item"><h4>10</h4></div>
+                        <div class="item"><h4>11</h4></div>
+                        <div class="item"><h4>12</h4></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skillsBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">  
+                    <div class="nav  flex-md-column flex-row nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home " type="button" role="tab" aria-controls="v-pills-skillsInDemand" aria-selected="true">Skills In Demand</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-localProjects" aria-selected="false">Local Projects</a>
+                        <a class="nav-link mb-5" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-initiatives" aria-selected="false">Government Initiatives</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="row">   
+                            <div class="col-md-6">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-skillsInDemand-tab" tabindex="0">
+                                    <h6 class="skillsText"><a>Data Entry Specialists</a></h6>
+                                    <h6 class="skillsText"><a>Video Editors</a></h6>
+                                    <h6 class="skillsText"><a>Data Analyst</a></h6>
+                                    <h6 class="skillsText"><a>Shopify Developer</a></h6>
+                                    <h6 class="skillsText"><a>Ruby on Rails Developer</a></h6>
+                                    <h6 class="skillsText"><a>Android Developer</a></h6>
+                                    <h6 class="skillsText"><a>Bookkeeper</a></h6>
+                                    <h6 class="skillsText"><a>Content Writer</a></h6>
+                                    <h6 class="skillsText"><a>Copywriter</a></h6>
+                                    <h6 class="skillsText"><a>Database Administrator</a></h6>
+                                    <h6 class="skillsText"><a>Data Scientist</a></h6>
+                                    <h6 class="skillsText"><a>Front-End Developer</a></h6>
+                                    <h6 class="skillsText"><a>Game Developer</a></h6>
+                                    <h6 class="skillsText"><a>Graphic Designer</a></h6>
+                                    <h6 class="skillsText"><a>iOS Developer</a></h6>
+                                    <h6 class="skillsText"><a>Java Developer</a></h6>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-localProjects-tab" tabindex="0">
+                                    <h6 class="skillsText"><a>iOS Developer</a></h6>
+                                    <h6 class="skillsText"><a>Java Developer</a></h6>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-initiatives-tab" tabindex="0">
+                                    <h6 class="skillsText"><a>Game Developer</a></h6>
+                                    <h6 class="skillsText"><a>Graphic Designer</a></h6>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-skillsInDemand-tab" tabindex="1">
+                                    <h6 class="skillsText"><a>JavaScript Developer</a></h6>
+                                    <h6 class="skillsText"><a>Logo Designer</a></h6>
+                                    <h6 class="skillsText"><a>Mobile App Developer</a></h6>
+                                    <h6 class="skillsText"><a>PHP Developer</a></h6>
+                                    <h6 class="skillsText"><a>Python Developer</a></h6>
+                                    <h6 class="skillsText"><a>Resume Writer</a></h6>
+                                    <h6 class="skillsText"><a>SEO Expert</a></h6>
+                                    <h6 class="skillsText"><a>Social Media Manager</a></h6>
+                                    <h6 class="skillsText"><a>Software Developer</a></h6>
+                                    <h6 class="skillsText"><a>Software Engineer</a></h6>
+                                    <h6 class="skillsText"><a>Technical Writer</a></h6>
+                                    <h6 class="skillsText"><a>UI Designer</a></h6>
+                                    <h6 class="skillsText"><a>UX Designer</a></h6>
+                                    <h6 class="skillsText"><a>Virtual Assistant</a></h6>
+                                    <h6 class="skillsText"><a>Web Designer</a></h6>
+                                    <h6 class="skillsText"><a>Wordpress Developer</a></h6>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-localProjects-tab" tabindex="1">
+                                    <h6 class="skillsText"><a>iOS Developer</a></h6>
+                                    <h6 class="skillsText"><a>Java Developer</a></h6>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-initiatives-tab" tabindex="0">
+                                    <h6 class="skillsText"><a>UX Designer</a></h6>
+                                    <h6 class="skillsText"><a>Virtual Assistant</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- End Section -->
+    <section class="endBg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="communityText"><span style="color: #FFFFFF">Join Talends </span><span style="color: #3EE216;">Community</span></h1>
+                    <button type="button" class="btn btn-lg internBtn mt-4">Find A Job</button>
+                    <button type="button" class="btn btn-lg internHireBtn mt-4">Submit A Job</button>
+                </div>
+                <div class="col-md-4">
+                    <div class="endImgSize">
+                        <img src="images/endImg.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footerBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <img src="images/footerLogo.png" class="img-fluid" alt="">
+                    <p class="footerLogoText">Lend Your Talent</p>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h6 class="footerLinksHeading">For Clients</h6>
+                    <div class="footerLinks"><a>How To Hire</a></div>
+                    <div class="footerLinks"><a>Talent Markerplace</a></div>
+                    <div class="footerLinks"><a>Project Catalog</a></div>
+                    <div class="footerLinks"><a>Project Manager</a></div>
+                    <div class="footerLinks"><a>Hire Locally</a></div>
+                    <div class="footerLinks"><a>Hire in Dubai</a></div>
+                    <div class="footerLinks"><a>Hire in Abu Dhabi</a></div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h6 class="footerLinksHeading">For Talents & Internee</h6>
+                    <div class="footerLinks"><a>How to Find a Job</a></div>
+                    <div class="footerLinks"><a>Find freelance job in Dubai</a></div>
+                    <div class="footerLinks"><a>Find freelance job in Abu Dhabi</a></div>
+                    <div class="footerLinks"><a>Find freelance job in Sharjah</a></div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h6 class="footerLinksHeading">Government</h6>
+                    <div class="footerLinks"><a>How to Hire</a></div>
+                    <div class="footerLinks"><a>Dedicated Project Manager</a></div>
+                    <div class="footerLinks"><a>Quality Assurance</a></div>
+                    <div class="footerLinks"><a>Data Security</a></div>
+                    <div class="footerLinks"><a>Talent Verification Check</a></div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h6 class="footerLinksHeading">Company</h6>
+                    <div class="footerLinks"><a>About Us</a></div>
+                    <div class="footerLinks"><a>Why Talends</a></div>
+                    <div class="footerLinks"><a>Careers</a></div>
+                    <div class="footerLinks"><a>Trust & Safety</a></div>
+                    <div class="footerLinks"><a>CSR</a></div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-auto me-auto">
+                    <div class="footerEndText">
+                        <p> © 2021 Talends, All Right Reserved</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                     <div class="footerEndText">
+                        <p>Privacy Policy</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
